@@ -9,3 +9,7 @@ In this program, we use Python's threading module to simulate two processors run
 The tightly_coupled_system function increments the global variable shared_memory by 1 for each iteration, while the loosely_coupled_system function increments the local memory variable by 1 for each iteration.
 
 After running the program, you will see that in the tightly coupled system, the shared memory value will be significantly higher compared to the loosely coupled system where each thread maintains its own local memory. This demonstrates the difference between tightly coupled and loosely coupled systems in terms of memory access. Tightly coupled systems may face issues with contention and consistency when multiple processors access shared memory, while loosely coupled systems provide more isolation and independence to individual processors.
+
+## Run Simulation:
+
+    python tight_vs_loose.py
